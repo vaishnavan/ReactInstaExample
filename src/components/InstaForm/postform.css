@@ -1,0 +1,31 @@
+.form_heading{
+    text-align: center;
+}
+.input_main{
+    text-align: center;
+}
+.input_data input{
+    width: 300px;
+    padding: 10px;
+    margin: 15px 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.input_data input:hover{
+    border-bottom: 2px solid blue;
+    transition: all 0.5s ease;
+}
+.btn button{
+    width: 320px;
+    padding: 10px;
+    background-color: rgb(12, 166, 238);
+    border: 1px solid blue;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin: 15px 0;
+}
